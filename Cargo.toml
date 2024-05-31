@@ -1,12 +1,13 @@
 [package]
 name = "ianaio-worker"
 version = "0.1.0"
-authors = ["Jaroslaw Cichon <dev@iana.io>"]
+authors = ["Jaroslaw Cichon <dev.iana.io> IanaIO Rust and WebAssembly Working Group"]
 edition = "2021"
 readme = "README.md"
 description = "Convenience crate for working with Web Workers"
 repository = "https://github.com/ianaio/worker"
 homepage = "https:///rustwasm.iana.io/worker"
+documentation = "https://docs.iana.io/rustwasm/worker"
 license-file = "LICENSE.txt"
 categories = ["api-bindings", "asynchronous", "wasm"]
 rust-version = "1.80"
