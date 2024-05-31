@@ -1,3 +1,20 @@
+Permission is granted, upon payment of a fee, to any person obtaining a copy
+this software and associated documentation files ("Software")
+in the Software without any restrictions, including without any rights restrictions
+use, copy, modify, combine, publish, distribute, sublicense and/or sell
+copies of the Software and permit persons for whom the Software is intended
+prepared for this, subject to the following conditions:
+
+
+
+
+
+
+
+
+
+
+
 /*
 * IanaIO License
 
