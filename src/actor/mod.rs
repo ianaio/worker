@@ -25,4 +25,3 @@ type Shared<T> = Rc<RefCell<T>>;
 
 /// Alias for `Rc<dyn Fn(IN)>`
 type Callback<IN> = Rc<dyn Fn(IN)>;
-

@@ -137,4 +137,39 @@ where
     /// will leak.
     #[cfg(feature = "futures")]
     #[cfg_attr(docsrs, doc(cfg(feature = "futures")))]
-    pub fn callback_future<FN, FU, IN, M>(&self, function: FN) ->
+    pub fn callback_future<FN, FU, IN, M>(&self, function: FN) -> Rc<dyn Fn(IN)>
+    where
+        M: Into<W::Message>,
+        FU: Future<Output = M> + 'static,
+        FN: Fn(IN) -> FU + 'static,
+    {
+        let scope = self.clone();
+
+        let closure = move |input: IN| {
+            let future: FU = function(input);
+            scope.send_future(future);
+        };
+
+        Rc::new(closure)
+    }
+
+    /// This method processes a Future that returns a message and sends it back to the worker.
+    ///
+    /// # Panics
+    /// If the future panics, then the promise will not resolve, and will leak.
+    #[cfg(feature = "futures")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "futures")))]
+    pub fn send_future<F, M>(&self, future: F)
+    where
+        M: Into<W::Message>,
+        F: Future<Output = M> + 'static,
+    {
+        let scope = self.clone();
+        let js_future = async move {
+            let message: W::Message = future.await.into();
+            let cb = scope.callback(|m: W::Message| m);
+            (*cb)(message);
+        };
+        wasm_bindgen_futures::spawn_local(js_future);
+    }
+}

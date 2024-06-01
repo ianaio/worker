@@ -65,4 +65,3 @@ where
         worker.post_packed_message::<_, CODEC>(loaded);
     }
 }
-

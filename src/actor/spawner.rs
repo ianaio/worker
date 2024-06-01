@@ -4,7 +4,7 @@ use std::fmt;
 use std::marker::PhantomData;
 use std::rc::{Rc, Weak};
 
-use iana_utils::window;
+use gloo_utils::window;
 use js_sys::Array;
 use serde::de::Deserialize;
 use serde::ser::Serialize;
@@ -181,4 +181,3 @@ where
         self.spawn_inner(worker)
     }
 }
-

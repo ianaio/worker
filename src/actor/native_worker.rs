@@ -65,4 +65,3 @@ macro_rules! worker_ext_impl {
 worker_ext_impl! {
     DedicatedWorker, DedicatedWorkerGlobalScope
 }
-
