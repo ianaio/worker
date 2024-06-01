@@ -44,4 +44,4 @@ pub use traits::Reactor;
 /// See [module level documentation](self) for more information.
 #[doc(inline)]
 #[cfg(feature = "futures")]
-pub use gloo_worker_macros::reactor;
+pub use ianaio_worker_macros::reactor;
