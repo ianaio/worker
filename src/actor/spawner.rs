@@ -4,7 +4,7 @@ use std::fmt;
 use std::marker::PhantomData;
 use std::rc::{Rc, Weak};
 
-use gloo_utils::window;
+use ianaio_utils::window;
 use js_sys::Array;
 use serde::de::Deserialize;
 use serde::ser::Serialize;

@@ -3,8 +3,8 @@
 //! ## Example
 //!
 //! ```rust, no_run
-//! use gloo_worker::oneshot::oneshot;
-//! use gloo_worker::Spawnable;
+//! use ianaio_worker::oneshot::oneshot;
+//! use ianaio_worker::Spawnable;
 //!
 //! #[oneshot]
 //! async fn Squared(input: u32) -> u32 {
@@ -34,4 +34,4 @@ pub use traits::Oneshot;
 /// See [module level documentation](self) for more information.
 #[doc(inline)]
 #[cfg(feature = "futures")]
-pub use gloo_worker_macros::oneshot;
+pub use ianaio_worker_macros::oneshot;
