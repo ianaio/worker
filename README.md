@@ -6,8 +6,8 @@ Convenience crate for working with Web Workers
   <h1><code>ianaio-worker</code></h1>
 
   <p>
-    <a href="https://crates.io/crates/ianaio-worker"><img src="https://img.shields.io/crates/v/gloo-worker.svg?style=flat-square" alt="Crates.io version" /></a>
-    <a href="https://crates.io/crates/ianaio-worker"><img src="https://img.shields.io/crates/d/gloo-worker.svg?style=flat-square" alt="Download" /></a>
+    <a href="https://crates.io/crates/ianaio-worker"><img src="https://img.shields.io/crates/v/ianaio-worker.svg?style=flat-square" alt="Crates.io version" /></a>
+    <a href="https://crates.io/crates/ianaio-worker"><img src="https://img.shields.io/crates/d/ianaio-worker.svg?style=flat-square" alt="Download" /></a>
     <a href="https://docs.rs/ianaio-worker"><img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square" alt="docs.rs docs" /></a>
   </p>
 

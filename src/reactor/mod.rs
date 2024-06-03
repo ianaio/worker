@@ -3,8 +3,8 @@
 //! ## Example
 //!
 //! ```rust, no_run
-//! use gloo_worker::reactor::{reactor, ReactorScope};
-//! use gloo_worker::Spawnable;
+//! use ianaio_worker::reactor::{reactor, ReactorScope};
+//! use ianaio_worker::Spawnable;
 //! use futures::{sink::SinkExt, StreamExt};
 //!
 //! #[reactor]
