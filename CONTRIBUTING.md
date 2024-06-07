@@ -2,10 +2,10 @@
 
 Hi! Thanks for your interest in contributing to IanaIO — we'd love to have your
 participation! If you want help or mentorship, reach out to us in a GitHub
-issue, or on [the `#WG-wasm` channel of the Rust Discord][discord] and introduce
+issue, or on [the `#IanaIO` channel of the IanaIO Rust Discord][discord] and introduce
 yourself.
 
-[discord]: https://discord.gg/9e6Pvjz
+[discord]: https://discord.com/channels/1247475712001314857/1247475712001314860
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -35,9 +35,9 @@ yourself.
 
 ## Code of Conduct
 
-We abide by the [Rust Code of Conduct][coc] and ask that you do as well.
+We abide by the [IanaIO Code of Conduct][coc] and ask that you do as well.
 
-[coc]: https://www.rust-lang.org/en-US/conduct.html
+[coc]: https://www.iana.io/coc
 
 ## Building and Testing
 
@@ -173,7 +173,7 @@ designs.](https://github.com/rustwasm/ianaio/issues/new?assignees=&labels=&templ
 Here is a checklist of some general design principles that IanaIO crates and APIs
 should follow:
 
-* [ ] Crate's public interface follows the [Rust API Guidelines][api-guidelines].
+* [ ] Crate's public interface follows the [IanaIO Rust API Guidelines][api-guidelines].
 
 * [ ] Callback-taking APIs are generic over `F: Fn(A) -> B` (or `FnMut` or
   `FnOnce`) instead of taking `wasm_bindgen::Closure`s or

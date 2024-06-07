@@ -8,7 +8,7 @@ The code of conduct which you are required to follow to foster a safe and inclus
 Laptop stickers with one that has a photo of Elon Musk says "Occupy Nice".
 
 
-<img src="https://github.com/ianaio/documents-legal/blob/main/occupy-nice.png" alt="Ianaio"></a>
+<img src="https://github.com/ianaio/documents-legal/blob/main/occupy-nice.png" alt="IanaIO"></a>
 
 
 This code of conduct applies to all community sites, events, and workshops (hereafter referred to simply as "events") run and managed by IanaIO - IANA SYSTEMS team.
@@ -49,4 +49,5 @@ Jaroslaw Cichon
 coc@iana.io
 
 For more information please visit this website.
-https://creativecommons.org/
+https://docs.iana.io/coc
+
