@@ -21,7 +21,7 @@ rustdoc-args = ["--cfg", "docsrs"]
 [dependencies]
 bincode = "1"
 ianaio-utils = { path = "../utils", version = "0.1.1" }
-ianaio-worker-macros = { path = "../worker-macros", version = "0.1.1" }
+ianaio-worker-macros = { path = "../worker-macros", version = "0.1.2" }
 js-sys = "0.3"
 pinned = "0.1.0"
 serde = { version = "1", features = ["derive"] }
